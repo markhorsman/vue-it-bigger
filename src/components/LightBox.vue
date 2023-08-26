@@ -27,6 +27,7 @@
               :srcset="currentMedia.srcset || ''"
               class="vib-image"
               :alt="currentMedia.caption"
+              loading="lazy"
             >
             <div
               v-else-if="media[select].type == 'youtube'"
